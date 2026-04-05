@@ -1,0 +1,25 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# Test binary, built by `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with Litmus
+*.out
+
+# Dependency directories (run `go mod vendor` if you want to include them)
+vendor/
+
+# Local task database
+tasks.json
+tasks.csv
+
+# IDE settings
+.vscode/
+.idea/
+.gemini/
