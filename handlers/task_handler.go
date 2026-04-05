@@ -58,8 +58,8 @@ func AddTask(title, description, dueDate, priority string) error {
 		Title:       title,
 		Description: description,
 		DueDate:     dueDate,
-		Status:      statusPending,
-		Priority:    priority, // default priority
+		Status:      statusPending, // default status
+		Priority:    priority,      // default priority
 		CreatedAt:   time.Now(),
 	}
 
