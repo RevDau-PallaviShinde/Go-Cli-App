@@ -7,12 +7,10 @@ import (
 	"github.com/RevDau-PallaviShinde/Go-Cli-App/cmd"
 )
 
+// @title       Task Manager API
+// @version     1.0
+// @description REST API for the Task Manager CLI application.
+// @BasePath    /api/v1
 func main() {
-
-	// if os.Getenv("MODE") == "api" {
-	// 	api.StartServer()
-	// 	return
-	// }
-
 	cmd.Execute()
 }
