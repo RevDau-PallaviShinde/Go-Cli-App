@@ -65,7 +65,6 @@ definitions:
       updated_at:
         type: string
     type: object
-host: 13.233.237.253:8080
 info:
   contact: {}
   description: REST API for the Task Manager CLI application.

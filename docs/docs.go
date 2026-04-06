@@ -12,8 +12,8 @@ const docTemplate = `{
         "contact": {},
         "version": "{{.Version}}"
     },
-    "host": "13.233.237.253:8080",
-    "basePath": "/api/v1",
+    "host": "{{.Host}}",
+    "basePath": "{{.BasePath}}",
     "paths": {
         "/tasks": {
             "get": {
@@ -407,7 +407,7 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
-	Host:             "localhost:8080",
+	Host:             "",
 	BasePath:         "/api/v1",
 	Schemes:          []string{},
 	Title:            "Task Manager API",
